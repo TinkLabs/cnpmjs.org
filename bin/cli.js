@@ -80,9 +80,10 @@ function start(options) {
       }
 
       var configJSON = JSON.stringify(config, null, 2);
-      fs.writeFileSync(configfile, configJSON);
-
-      debug('save config %s to %s', configJSON, configfile);
+      if (fs.existsSync(configfile) || configJSON !== '{}') {
+        fs.writeFileSync(configfile, configJSON);
+        debug('save config %s to %s', configJSON, configfile);
+      }
 
       // if sqlite db file not exists, init first
       initDatabase(function() {

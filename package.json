@@ -1,5 +1,5 @@
 {
-  "name": "cnpmjs",
+  "name": "@hi/cnpmjs",
   "version": "3.0.0-rc.18",
   "description": "Private npm registry and web for Enterprise, base on MySQL and Simple Store Service",
   "main": "index.js",
@@ -89,17 +89,17 @@
     "supertest": "2",
     "thunk-mocha": "1"
   },
-  "homepage": "https://github.com/cnpm/cnpmjs.org",
+  "homepage": "https://github.com/Tinklabs/cnpmjs",
   "repository": {
     "type": "git",
-    "url": "git://github.com/cnpm/cnpmjs.org.git",
-    "web": "https://github.com/cnpm/cnpmjs.org"
+    "url": "git://github.com/Tinklabs/cnpmjs.git",
+    "web": "https://github.com/Tinklabs/cnpmjs"
   },
   "bugs": {
-    "url": "https://github.com/cnpm/cnpmjs.org/issues"
+    "url": "https://github.com/Tinklabs/cnpmjs/issues"
   },
   "publishConfig": {
-    "tag": "latest-3"
+    "tag": "rc"
   },
   "keywords": [
     "cnpmjs.org",
@@ -111,7 +111,7 @@
   "engines": {
     "node": ">= 8.0.0"
   },
-  "author": [
+  "contributors": [
     "fengmk2 <fengmk2@gmail.com> (http://fengmk2.com)",
     "dead_horse <dead_horse@qq.com> (http://deadhorse.me)"
   ],
